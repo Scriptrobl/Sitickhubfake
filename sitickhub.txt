@@ -2479,7 +2479,7 @@ end)
 local ToggleUI = Instance.new("ScreenGui")
 local ToggleButton = Instance.new("TextButton")
 local ToggleButtonHUI = Instance.new("UICorner")
-ToggleUI.Name = "ToggleUI"
+ToggleUI.Name = "mở lại ui"
 ToggleUI.Parent = game.CoreGui
 ToggleUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
@@ -3481,7 +3481,7 @@ spawn(function()
     end)
 end)
 
-    _G.FastAttackDelay = 0
+    _G.FastAttackDelay = 0.2
            
 local Section = M:AddSection({
     Name = "Bypass Teleport"
